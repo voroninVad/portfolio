@@ -1,0 +1,11 @@
+.container{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    color: var(--txt_color);
+    text-decoration: none;
+
+    border-right: 1px solid #1c1c21;
+    padding: 30px 40px;
+}

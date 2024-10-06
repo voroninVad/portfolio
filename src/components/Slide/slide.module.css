@@ -1,0 +1,27 @@
+.item{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    text-transform: uppercase;
+    color: #d6d0fb;
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: #0e0e10;
+}
+
+.item img{
+    background: #0e0e10;
+}
+
+@media (max-width:480px){
+    .item{
+        font-size: 14px;
+    }
+    .item img{
+        width: 30px;
+        height: 30px;
+    }
+}

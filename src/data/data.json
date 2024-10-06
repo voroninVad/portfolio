@@ -1,0 +1,54 @@
+{
+    "skils":[
+        {
+            "id":1,
+            "name": "user interface"
+        },
+        {
+            "id":2,
+            "name": "cross browser errors"
+        },
+        {
+            "id":3,
+            "name": "website template layout"
+        },
+        {
+            "id":4,
+            "name": "adaptive layout"
+        },
+        {
+            "id":5,
+            "name": "mobile layout"
+        }        
+    ],
+    "project":[
+        {
+            "id":1,
+            "name": "Cyberpunk 2077",
+            "date": "Aprel 2024",
+            "img": "https://verstaem.online/projects/cyberpunk/img/inner-image.jpg",
+            "url": "https://voroninvad.github.io/Cyberpunk/"
+        },
+        {
+            "id":2,
+            "name": "Mntn",
+            "date": "Jule 2024",
+            "img": "https://verstaem.online/projects/mntn/img/inner-image.jpg",
+            "url": "https://voroninvad.github.io/mntn/"
+        },
+        {
+            "id":3,
+            "name": "Robin.W",
+            "date": "Aprel 2024",
+            "img": "https://verstaem.online/projects/robin-w/img/inner-image.jpg",
+            "url": "https://voroninVad.github.io/robin"
+        },
+        {
+            "id":4,
+            "name": "House",
+            "date": "June 2024",
+            "img": "https://verstaem.online/projects/house/img/inner-image.jpg",
+            "url": "https://voroninvad.github.io/inkHouse/"
+        }
+    ]
+}

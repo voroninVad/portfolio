@@ -1,6 +1,7 @@
 
 import { NavLink } from "react-router-dom";
 import './menuMobile.css'
+import SwitchTheme from "../SwitchTheme/SwitchTheme";
 
 const MobileMenu= () => {
     return ( 
@@ -12,9 +13,7 @@ const MobileMenu= () => {
          <NavLink to="/about" className='mobile-nav-item'>
            About
          </NavLink>
-         <NavLink to="/portfolio" className='mobile-nav-item'>
-           Portfolio
-         </NavLink>
+         <SwitchTheme />
        </nav>
      </div>
      );

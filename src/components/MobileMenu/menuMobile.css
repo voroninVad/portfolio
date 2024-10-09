@@ -3,7 +3,7 @@
     top: 120px;
     left: 0;
     width: 100%;
-    background-color: #fff;
+    background-color: var(--bc_color);
   }
   .mobile-menu__nav{
     display: flex;
@@ -12,5 +12,11 @@
     padding: 40px;
   }
   .mobile-nav-item{
-    color: black;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: var(--txt_color);
+    text-decoration: none;
+    padding: 30px 40px;
   }

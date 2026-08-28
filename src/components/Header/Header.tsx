@@ -17,7 +17,7 @@ const Header = () =>{
                     vadim
                 </div>
                 <div className='nav__menu'>
-                    <NavLink to="/" className='nav_item'>
+                    <NavLink to="/portfolio" className='nav_item'>
                         Home
                     </NavLink>
                     <NavLink to="/about" className='nav_item'>

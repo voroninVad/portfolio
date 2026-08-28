@@ -10,6 +10,7 @@ type Props ={
 }
 
 const Project:FC<Props> = ({image,name,date,url,pos})=>{
+    console.log(image)
     return(
             <div className={style.container} style={{transform: `translateX(${pos}%)`}}>
             <div className={style.img__project}>

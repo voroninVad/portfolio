@@ -33,7 +33,7 @@ const [theme, setTheme] = useState("dark")
       <ThemeContext.Provider value={{theme,setTheme}}>
       <Header />
       <Routes>
-        <Route  path="/" element={<Home />} />
+        <Route  path="/portfolio" element={<Home />} />
         <Route  path="/about" element={<About />} />
       </Routes>
       <Footer /> 

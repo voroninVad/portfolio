@@ -3,6 +3,7 @@ import WorkTogether from '../WorkTogether/WorkTogether'
 import style from './footer.module.css'
 import leftSvg from '../../images/leftSvg.png'
 import rightSvg from '../../images/rightSvg.png'
+import { Link } from 'react-router-dom'
 
 const Footer = ()=>{
     return(
@@ -17,9 +18,9 @@ const Footer = ()=>{
                     </div>
                     <div className={style.navigation}>
                         <ul>
-                            <li><a href='/'>HOME</a></li>
-                            <li><a href="/about#about">About</a></li>
-                            <li><a href="/#portfolio">My Work</a></li>
+                            <li><Link to='/portfolio'>HOME</Link></li>
+                            <li><Link to="/about#about">About</Link></li>
+                            <li><Link to="/portfolio#portfolio">My Work</Link></li>
                         </ul>
                     </div>
                 </div>

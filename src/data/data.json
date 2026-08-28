@@ -26,21 +26,21 @@
             "id":2,
             "name": "Mntn",
             "date": "Jule 2024",
-            "img": "../img/mntn.jpg",
+            "img": "./img/mntn.jpg",
             "url": "https://voroninvad.github.io/mntn/"
         },
         {
             "id":3,
             "name": "Robin.W",
             "date": "Aprel 2024",
-            "img": "../img/robin.W.jpg",
+            "img": "./img/robin.W.jpg",
             "url": "https://voroninVad.github.io/robin"
         },
         {
             "id":4,
             "name": "House",
             "date": "June 2024",
-            "img": "../img/house.jpg",
+            "img": "./img/house.jpg",
             "url": "https://voroninvad.github.io/inkHouse/"
         }
     ]

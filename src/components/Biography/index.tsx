@@ -1,14 +1,23 @@
 import style from './index.module.css'
 
 const Biography = () => {
-    return ( 
-        <div className={style.container}>
-            <h3>My Biography</h3>
-            <p>Damien Braun's love affair with photography began at a young age, nurtured by the captivating landscapes and vibrant cultures surrounding her in the heart of the USA. Her passion for storytelling through imagery led her to embark on a photography journey that has spanned over 15 years.
-Driven by an insatiable curiosity to explore the beauty in everyday moments, Damien has honed her craft meticulously. Her background in digital media provided her with a solid foundation, but it's her keen eye for detail and an innate ability to capture raw emotions that truly set her apart.
-Damien's journey is more than just taking pictures; it's about capturing the essence of the human spirit, the fleeting magic of nature, and the emotions that define our lives. With each click of her camera, she weaves stories that transcend time and space.</p>
+    return (
+        <div id='about' className={style.container}>
+            <h3>О себе</h3>
+            <p>
+                Завершаю обучение в Московском финансово-юридическом университете по специальности «Информационные системы и технологии в бизнесе» (последний курс), имею диплом колледжа программирования.
+                Специализируюсь на создании адаптивных пользовательских интерфейсов с использованием стека HTML5, CSS, JavaScript и React.js. Активно использую Git для контроля версий и умею работать с реляционными базами данных (PostgreSQL, MySQL).
+                Мои учебные проекты — это полноценные веб-приложения, где я прошел путь от верстки до настройки логики:
+            </p>
+            <ul>
+                <li><b>SneakMax</b> (React, Redux, Rest API) — интернет-магазин кроссовок. Реализовал работу с серверной частью через REST API: динамическую подгрузку товаров, фильтрацию каталога и управление состоянием корзины без перезагрузки страницы.</li>
+                <li><b>Robin и Ink. House</b> (HTML/CSS/JS, React) — лендинги, собранные с нуля. В проекте Robin перевел статичную верстку на компонентную архитектуру React, что позволило гибко управлять интерактивными элементами.</li>
+                <li><b>Менеджер задач TodoList</b> (React, Redux) — приложение для планирования дел. Настроил сложное глобальное состояние с помощью Redux, реализовал сохранение списков задач и систему фильтрации (все / невыполненные / выполненные).</li>
+            </ul>
+            <p>Ищу позицию Junior Frontend-developer или интернатуру в продуктовой команде. Хочу развиваться в проектировании архитектуры фронтенда, глубже изучить TypeScript и поучаствовать в разработке высоконагруженных интерфейсов под руководством опытных наставников.</p>
+          
         </div>
-     );
+    );
 }
- 
+
 export default Biography;

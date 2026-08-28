@@ -14,10 +14,10 @@ const ContentSection = () =>{
                         <svg width="39" height="40" viewBox="0 0 39 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M19.5 0L22.2577 17.1716L39 20L22.2577 22.8284L19.5 40L16.7423 22.8284L0 20L16.7423 17.1716L19.5 0Z" fill="#AFA1F7" />
                         </svg>
-                        Introduction
+                        Введение
                     </h5>
                     <p className={style.description}>
-                    Every year, technology takes an increasingly important place in our lives, and watching this progress, I couldn’t help but think about my place in this exciting world. My interest in programming began as a simple hobby - I always loved to understand how things work. The first experiments with code opened up a whole world of possibilities for me, where I could create my own projects and solve problems that would have seemed impossible.
+                    С каждым годом технологии занимают все более важное место в нашей жизни, и, наблюдая за этим прогрессом, я не мог не задуматься о своем месте в этом захватывающем мире. Мой интерес к программированию начался как простое хобби — мне всегда нравилось понимать, как все работает. Первые эксперименты с кодом открыли для меня целый мир возможностей, где я мог создавать собственные проекты и решать задачи, которые раньше казались невыполнимыми.
                     </p>
                 </div>
                 <div className={style.contantInfo}>
@@ -25,7 +25,7 @@ const ContentSection = () =>{
                         <svg width="39" height="40" viewBox="0 0 39 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M19.5 0L22.2577 17.1716L39 20L22.2577 22.8284L19.5 40L16.7423 22.8284L0 20L16.7423 17.1716L19.5 0Z" fill="#AFA1F7" />
                         </svg>
-                        Contact Information
+                        Контакты
                     </h5>
                     <div className={style.contacts}>
                         <div className={style.contacts__email_phone}>
@@ -49,14 +49,9 @@ const ContentSection = () =>{
                         </div>
                         <div className={style.contacts__link}>
                            <LinkSocial />
-                           <div className={style.link__work}>
-                            <div className="sectionBtn">
+                           <div className="sectionBtn">
                                 <a href="http://" target="_blank" rel="noopener noreferrer">Let’s Work</a>
                             </div>
-                            <div className="sectionBtn">
-                                <a href="http://" target="_blank" rel="noopener noreferrer">Download CV</a>
-                            </div>
-                           </div>
                         </div>
                     </div>
                 </div>

@@ -4,6 +4,7 @@
   --title_color: #797c86;
   --desc_color: #070708;
   --active: #fff;
+  --txt_itemBanner: #4b2eed;
 }
 
 .dark{
@@ -12,6 +13,7 @@
   --title_color: #cacace;
   --desc_color: #afb0b6;
   --active: #131316;
+  --txt_itemBanner: #d6d0fb;
 }
 
 :root {

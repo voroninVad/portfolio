@@ -25,7 +25,7 @@
     }
     .name span{
         font-size: 180px;
-        padding-right: 73px;
+        padding-right: 8%;
     }
 }
 @media (max-width:950px){

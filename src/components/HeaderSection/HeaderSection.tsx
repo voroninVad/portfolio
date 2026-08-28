@@ -7,18 +7,19 @@ type Props = {
     textBtn: string,
     btn: string,
     valuePos: number,
+    linkBtn:string,
     setValue: Dispatch<React.SetStateAction<number>>
 }
 
-const HeaderSection: FC<Props> = ({nameSection, text, textBtn,btn,valuePos,setValue}) =>{
+const HeaderSection: FC<Props> = ({nameSection, text, textBtn,linkBtn,btn,valuePos,setValue}) =>{
     const handleClick = (scrl: number) =>{
         
         setValue(valuePos + scrl)
         if(valuePos === 0 && scrl == 100){
             setValue(0)
         }
-        else if(valuePos === -300 && scrl == -100){
-            setValue(-300)
+        else if(valuePos === -200 && scrl == -100){
+            setValue(-200)
         }
     }
 
@@ -42,7 +43,7 @@ const HeaderSection: FC<Props> = ({nameSection, text, textBtn,btn,valuePos,setVa
                 </div>}
                 {textBtn && 
                     <div className="sectionBtn">
-                        <a href="">{textBtn}</a>
+                        {nameSection == "portfolio" ? <a target='_blank' href={linkBtn}>{textBtn}</a> : <a href={linkBtn}>{textBtn}</a>}
                     </div>
                 }
             

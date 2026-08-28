@@ -35,10 +35,12 @@
     color: var(--txt_color);
 }
 
+
+
 @media (max-width: 1440px){
     .contentBanner{
         height: 256px;
-        padding: 60px 80px;
+        padding: 20px 40px 20px 73px;
     }
     .stunning__text{
         height: 111px;
@@ -51,6 +53,9 @@
     }
 }
 @media (max-width: 1000px){
+    .contentBanner{
+        padding: 20px 40px 20px 73px;
+    }
     .stunning__text_my__name{
         font-size: 30px;
     }
@@ -58,8 +63,14 @@
         font-size: 16px;
     }
     .contentBanner img{
-        width: 200px;
-        height: 200px;
+        width: 45%;
+        height: 150%;
+    }
+}
+
+@media (max-width: 768px){
+    .contentBanner img{
+        display: none;
     }
 }
 
@@ -73,8 +84,5 @@
     }
     .stunning__text{
         width: 100%;
-    }
-    .contentBanner img{
-        display: none;
     }
 }

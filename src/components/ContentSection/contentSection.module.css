@@ -1,5 +1,4 @@
 .container{
-    height: 710px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -8,7 +7,6 @@
 
 .section__img{
     width: 45%;
-    height: 710px;
 }
 
 .section__img img{
@@ -19,14 +17,12 @@
     border: 1px solid #1c1c21;
     border-radius: 20px;
     width: 50%;
-    height: 610px;
 }
 
 .introduction{
     border-bottom: 1px solid #1c1c21;
     padding: 39px;
     width: 100%;
-    height: 276px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
@@ -58,7 +54,6 @@
 
 .contacts__email_phone{
     max-width: 100%;
-    height: 67px;
     display: flex;
     gap: 120px;
     margin: 40px 0;
@@ -101,28 +96,21 @@
     justify-content: space-between;
 }
 
-.link__work{
+/* .link__work{
     width: 447px;
     height: 63px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
+} */
 
 @media (max-width:1440px) {
     .container{
-        height: 585px;
         padding-top: 60px;
     }
-    .section__img{
-        height: 100%;
-    }
-    .content{
-        height: 519px;
-    }
-    .introduction{
-        height: 253px;
-        padding: 30px;
+    .introduction, .contantInfo{
+        padding: 25px;
+        height: auto;
     }
     .title{
         font-size: 24px;
@@ -130,13 +118,9 @@
     .description{
         font-size: 16px;
     }
-    .contantInfo{
-        height: 266px;
-        padding: 30px;
-    }
     .contacts__email_phone{
         width: 570px;
-        height: 57px;
+        gap: 50px;
         margin: 30px 0;
     }
     .constact h6{
@@ -157,16 +141,16 @@
 
 @media (max-width:1000px){
     .container{
-        height: 650px;
+        height: auto;
     }
     .section__img{
         height: 70%;
     }
     .content{
+        width: 60%;
         height: 100%;
     }
     .introduction{
-        height: 253px;
         padding: 24px;
     }
     .title{
@@ -176,11 +160,7 @@
         font-size: 14px;
     }
     .contantInfo{
-        height: 300px;
         padding: 20px;
-    }
-    .contacts{
-        height: 250px;
     }
     .contacts__email_phone{
         flex-direction: column;
@@ -192,8 +172,6 @@
     }
     .contacts__link{
         height: 110px;
-        flex-direction: column;
-        align-items: normal;
         gap: 20px;
     }
 
@@ -206,9 +184,6 @@
     .content{
         width: 100%;
     }
-    .introduction{
-        height: 183px;
-    }
     .contacts__link{
         flex-direction: row;
     }
@@ -217,9 +192,6 @@
 @media (max-width:480px){
     .section__img{
         width: 100%;
-    }
-    .introduction{
-        height: 276px;
     }
     .contacts{
         height: 210px;

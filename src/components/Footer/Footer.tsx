@@ -17,8 +17,8 @@ const Footer = ()=>{
                     </div>
                     <div className={style.navigation}>
                         <ul>
-                            <li><span>HOME</span></li>
-                            <li><a href="/#about">About</a></li>
+                            <li><a href='/'>HOME</a></li>
+                            <li><a href="/about#about">About</a></li>
                             <li><a href="/#portfolio">My Work</a></li>
                         </ul>
                     </div>

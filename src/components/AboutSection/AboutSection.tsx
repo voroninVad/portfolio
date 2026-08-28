@@ -7,7 +7,7 @@ const AboutSection = ()=>{
     const [value, setValue] = useState(0)
     return(
         <div className={style.container} id='about'>
-            <HeaderSection valuePos ={value} setValue={setValue} nameSection="about" text="i am vadim" btn="" textBtn="Know More &rarr;"/>
+            <HeaderSection valuePos ={value} setValue={setValue} nameSection="about" text="i am vadim" btn="" textBtn="Know More &rarr;" linkBtn="/about"/>
             <ContentSection />
         </div>
     )

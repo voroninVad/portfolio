@@ -43,9 +43,9 @@
         font-size: 48px;
     }
     .work__together svg{
-        padding: 16px 40px;
-        width: 104px;
-        height: 56px;
+        padding: 5px 10px;
+        width: 70px;
+        height: 35px;
     }
 }
 @media (max-width: 1000px){
@@ -53,7 +53,7 @@
         width: 350px;
     }
     .link__work_together h3{
-        font-size: 38px;
+        font-size: 30px;
     }
 }
 @media (max-width: 480px){

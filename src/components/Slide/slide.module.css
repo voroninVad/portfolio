@@ -4,16 +4,16 @@
     font-size: 18px;
     line-height: 150%;
     text-transform: uppercase;
-    color: #d6d0fb;
+    color: var(--txt_itemBanner);
 
     display: flex;
     align-items: center;
     gap: 10px;
-    background: #0e0e10;
+    background: var(--bc_color);
 }
 
 .item img{
-    background: #0e0e10;
+    background: var(--bc_color);
 }
 
 @media (max-width:480px){

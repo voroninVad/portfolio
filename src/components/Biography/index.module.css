@@ -3,7 +3,6 @@
     border-top: 1px solid #1c1c21;
     padding: 80px 0px;
     width: 100%;
-    height: 440px;
     margin: 80px 0;
 }
 
@@ -12,10 +11,10 @@
     font-weight: 600;
     font-size: 44px;
     text-transform: uppercase;
-    color: var(--txt_color);;
+    color: var(--txt_color);
 }
 
-.container p{
+.container p, li{
     font-family: var(--font-family);
     font-weight: 400;
     font-size: 20px;
@@ -24,25 +23,25 @@
     margin-top: 40px;
 }
 
+
 @media (max-width:1000px){
     .container h3{
         font-size: 36px;
     }
-    .container p{
+    .container p, li{
         font-size: 16px;
     }
 }
 
 @media (max-width:480px){
     .container{
-        height: 490px;
         padding: 40px 0px;
         margin: 40px 0;
     }
     .container h3{
         font-size: 24px;
     }
-    .container p{
+    .container p,li{
         font-size: 14px;
         margin-top: 20px;
     }

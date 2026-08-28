@@ -7,7 +7,7 @@ const PortfolioSection = ()=>{
     const [value, setValue] = useState(0)
     return(
         <div className={style.container} id='portfolio'>
-            <HeaderSection valuePos ={value} setValue={setValue} nameSection="portfolio" text="Explore My work." btn="true" textBtn="All Works &rarr;"  />
+            <HeaderSection valuePos ={value} setValue={setValue} nameSection="portfolio" text="Explore My work." btn="true" textBtn="All Works &rarr;" linkBtn='https://github.com/voroninVad' />
             <Portfolio value={value} />
         </div>
     )

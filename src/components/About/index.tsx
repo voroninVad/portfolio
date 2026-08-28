@@ -7,7 +7,7 @@ const About = () => {
     const [value, setValue] = useState(0)
     return (
         <div className={style.container}>
-            <HeaderSection valuePos={value} setValue={setValue} nameSection="about" text="about vadim voronin" btn="" textBtn="" />
+            <HeaderSection valuePos={value} setValue={setValue} nameSection="about" text="about vadim voronin" btn="" textBtn="" linkBtn=''/>
             <div className={style.banner_me}></div>
             <Biography />
         </div>
